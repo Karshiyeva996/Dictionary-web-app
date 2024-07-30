@@ -1,0 +1,254 @@
+@import url(./fonts.css);
+
+
+
+:root {
+    --050505: #050505;
+    --1F1F1F: #1F1F1F;
+    --2D2D2D: #2D2D2D;
+    --3A3A3A: #3A3A3A;
+    --757575: #757575;
+    --E9E9E9: #E9E9E9;
+    --F4F4F4: #F4F4F4;
+    --FFFFFF: #FFF;
+    --A445ED: #A445ED;
+    --FF5252: #FF5252;
+    --inter: "Sans Serif";
+    --Lora:  "Serif";
+    --Inconsolata: "Mono";
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+a {
+    text-decoration: none;
+} 
+
+li {
+    list-style: none;
+} 
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 351px;
+    padding-right: 351px;
+    margin: auto;
+}  
+
+.site__nav {
+    padding-top: 58px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav__dark {
+    display: flex;
+    justify-content:space-between ;
+    column-gap: 53px;
+
+} 
+
+.form-select{
+    color: var(--2D2D2D, #2D2D2D);
+font-family: var(--inter);
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+
+body{
+    background: var(--FFFFFF, #FFF);
+} 
+
+
+
+/*search*/
+
+.header-input {
+    width: 736px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--F4F4F4, #F4F4F4);
+padding-top: 59px;
+} 
+/*keyboard*/
+.header-keyboard {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.keyboard-title {
+color: var(--2D2D2D, #2D2D2D);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 64px;
+font-weight: 700;
+
+} 
+
+.keyboard__text {
+    color: var(--A445ED, #A445ED);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading M - Sans */
+font-family: var(--inter);
+font-size: 24px;
+font-weight: 400;
+}
+
+.keyboard-audi{
+    width: 75px;
+height: 75px;
+flex-shrink: 0;
+}
+
+.noun {
+    display: inline-flex;
+height: 29px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex-shrink: 0;
+padding-top: 40px;
+}
+
+.noun-text {
+color: var(--2D2D2D, #2D2D2D);
+font-family: var(--inter);
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+
+} 
+
+.noun-liny{
+    width: 656px;
+height: 1px;
+background: var(--E9E9E9, #E9E9E9);
+} 
+
+.site-main__data{
+    width: 736px;
+height: 243px;
+flex-shrink: 0;
+padding-top: 40px;
+} 
+.main-data__text {
+color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 20px;
+font-weight: 400;
+padding-bottom: 25px;
+} 
+
+.main-data__ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+
+}  
+
+.main-data__li {
+    display: flex;
+    column-gap: 20px;
+    color: var(--2D2D2D, #2D2D2D);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 18px;
+font-weight: 400;
+line-height: 24px; 
+
+} 
+
+.site-synonyms__electronic {
+    padding-top: 65px;
+    display: flex;
+    column-gap: 20px;
+
+} 
+
+.Synonyms {
+    padding-top: 64px;
+    color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 20px;
+font-weight: 400;
+
+
+} 
+.electronic {
+    padding-top: 65px;
+color: var(--A445ED, #A445ED);
+font-family: var(--inter);
+font-size: 20px;
+font-weight: 700;
+
+}
+
+.main-data__icon{
+    width: 5px;
+height: 5px;
+fill: var(--8F19E8, #8F19E8);
+
+} 
+.Synonyms-desc {
+width: 689px;
+flex-shrink: 0;
+color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 40px;
+} 
+
+.Synonyms-liny {
+width: 736px;
+height: 1px;
+flex-shrink: 0;
+background:  var(--E9E9E9, #E9E9E9);
+
+}
+
+.site-main__link {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 19px;
+} 
+
+.link-text {
+    color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 14px;
+font-weight: 400;
+text-decoration-line: underline;
+} 
+.link {
+    color: var(--2D2D2D, #2D2D2D);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: var(--inter);
+font-size: 14px;
+font-weight: 400;
+text-decoration-line: underline;
+} 
+.link-icon{
+    width: 12px;
+height: 12px;
+flex-shrink: 0;
+
+}
+   
+
+
